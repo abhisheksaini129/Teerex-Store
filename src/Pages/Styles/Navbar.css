@@ -1,0 +1,87 @@
+.Nav-bar{
+    box-sizing: border-box;
+    width: 100%;
+    height: 5rem;
+    background-color: gray;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    
+}
+.logo{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.Navlinks{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productLink{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid yellow; */
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cartIcon{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+.navLink-product{
+    color: black;
+}
+.navLink-cart{
+    height: 100%;
+    width: 70%;
+    background-color: rgb(163, 159, 159);
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.navLink-cart>svg{
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    margin-top: 20%;
+    padding: 5%;
+}
+.CartCount{
+    width: 30%;
+    height: 100%;
+    margin-top: 10%;
+    text-align: start;
+    color: black;
+    font-size: 1rem;
+    /* border: 1px solid yellow; */
+}
+
+@media only screen and (max-width: 600px) {
+    .Navlinks{
+    width: 30%;
+    }
+    .productLink{
+        display: none;
+    }
+    .cartIcon{
+        width: 70%;
+    }
+    .navLink-cart{
+        width: 100%;
+    }
+}

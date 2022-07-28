@@ -1,0 +1,29 @@
+.Home-item{
+    width: 100%;
+    /* border: 1px solid green; */
+    /* margin-top: 1rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.side-bar{
+    width: 30%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+}
+.product{
+    width: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+    .side-bar{
+        display: none;
+    }
+    .product{
+        width: 100%;
+    }
+    
+  }
+
